@@ -8,3 +8,4 @@ for i in s:
 m = d.items()
 for j, k in m:
     print(j, k)
+    
