@@ -19,8 +19,7 @@ def get(dict1, dict2, i, j):
     elif i == 'global':
         return None
     else:
-        i = dict2[i]
-        return get(dict1, dict2, i, j)
+        return get(dict1, dict2, dict2[i], j)
 
 for i in range(n):
     cmd, namesp, arg = input().split()
