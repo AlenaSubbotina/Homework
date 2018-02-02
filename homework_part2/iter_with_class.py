@@ -16,4 +16,4 @@ class MyList(list):
         return DoubleElementListIterator(self)
 
 for pair in MyList([1, 2, 3, 4, 5]):
-    print(pair) 
+    print(pair)
